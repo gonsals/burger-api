@@ -1,0 +1,1162 @@
+[
+  {
+    "nombre": "Big Mac®",
+    "calorías": "503Kcal",
+    "nutrición": {
+      "Valor Energético (kJ)": {
+        "por_100g": "972kJ",
+        "por_porcion": "2106kJ"
+      },
+      "Valor Energético (kcal)": {
+        "por_100g": "232kcal",
+        "por_porcion": "503kcal"
+      },
+      "Proteínas (g)": {
+        "por_100g": "12g",
+        "por_porcion": "26g"
+      },
+      "Hidratos de Carbono(g)": {
+        "por_100g": "19g",
+        "por_porcion": "42g"
+      },
+      "Fibra (g)": {
+        "por_100g": "1,4g",
+        "por_porcion": "3,1g"
+      },
+      "Azúcares (g)": {
+        "por_100g": "3,9g",
+        "por_porcion": "8,5g"
+      },
+      "Grasas (g)": {
+        "por_100g": "12g",
+        "por_porcion": "25g"
+      },
+      "Ác. Grasos Saturados (g)": {
+        "por_100g": "4,5g",
+        "por_porcion": "9,7g"
+      },
+      "Sal (g)": {
+        "por_100g": "1g",
+        "por_porcion": "2,2g"
+      }
+    }
+  },
+  {
+    "nombre": "Cuarto de Libra",
+    "calorías": "521Kcal",
+    "nutrición": {
+      "Valor Energético (kJ)": {
+        "por_100g": "1066kJ",
+        "por_porcion": "2179kJ"
+      },
+      "Valor Energético (kcal)": {
+        "por_100g": "255kcal",
+        "por_porcion": "521kcal"
+      },
+      "Proteínas (g)": {
+        "por_100g": "15g",
+        "por_porcion": "32g"
+      },
+      "Hidratos de Carbono(g)": {
+        "por_100g": "18g",
+        "por_porcion": "37g"
+      },
+      "Fibra (g)": {
+        "por_100g": "1,1g",
+        "por_porcion": "2,2g"
+      },
+      "Azúcares (g)": {
+        "por_100g": "4,6g",
+        "por_porcion": "9,5g"
+      },
+      "Grasas (g)": {
+        "por_100g": "13g",
+        "por_porcion": "27g"
+      },
+      "Ác. Grasos Saturados (g)": {
+        "por_100g": "6,6g",
+        "por_porcion": "14g"
+      },
+      "Sal (g)": {
+        "por_100g": "1,3g",
+        "por_porcion": "2,6g"
+      }
+    }
+  },
+  {
+    "nombre": "McRoyal Deluxe®",
+    "calorías": "530Kcal",
+    "nutrición": {
+      "Peso": {
+        "por_100g": null,
+        "por_porcion": "239g"
+      },
+      "Valor Energético (kJ)": {
+        "por_100g": "927kJ",
+        "por_porcion": "2214kJ"
+      },
+      "Valor Energético (kcal)": {
+        "por_100g": "222kcal",
+        "por_porcion": "530kcal"
+      },
+      "Proteínas (g)": {
+        "por_100g": "12g",
+        "por_porcion": "29g"
+      },
+      "Hidratos de Carbono(g)": {
+        "por_100g": "14g",
+        "por_porcion": "33g"
+      },
+      "Fibra (g)": {
+        "por_100g": "0,9g",
+        "por_porcion": "2,3g"
+      },
+      "Azúcares (g)": {
+        "por_100g": "2,9g",
+        "por_porcion": "6,9g"
+      },
+      "Grasas (g)": {
+        "por_100g": "13g",
+        "por_porcion": "31g"
+      },
+      "Ác. Grasos Saturados (g)": {
+        "por_100g": "5,1g",
+        "por_porcion": "12g"
+      },
+      "Sal (g)": {
+        "por_100g": "0,82g",
+        "por_porcion": "2g"
+      }
+    }
+  },
+  {
+    "nombre": "Cuarto de Libra Doble",
+    "calorías": "758Kcal",
+    "nutrición": {
+      "Valor Energético (kJ)": {
+        "por_100g": "1083kJ",
+        "por_porcion": "3167kJ"
+      },
+      "Valor Energético (kcal)": {
+        "por_100g": "259kcal",
+        "por_porcion": "758kcal"
+      },
+      "Proteínas (g)": {
+        "por_100g": "18g",
+        "por_porcion": "52g"
+      },
+      "Hidratos de Carbono(g)": {
+        "por_100g": "13g",
+        "por_porcion": "85g"
+      },
+      "Fibra (g)": {
+        "por_100g": "0,9g",
+        "por_porcion": "2,5g"
+      },
+      "Azúcares (g)": {
+        "por_100g": "3,6g",
+        "por_porcion": "11g"
+      },
+      "Grasas (g)": {
+        "por_100g": "15g",
+        "por_porcion": "44g"
+      },
+      "Ác. Grasos Saturados (g)": {
+        "por_100g": "7,3g",
+        "por_porcion": "21g"
+      },
+      "Sal (g)": {
+        "por_100g": "1g",
+        "por_porcion": "3g"
+      }
+    }
+  },
+  {
+    "nombre": "McPollo®",
+    "calorías": "427Kcal",
+    "nutrición": {
+      "Valor Energético (kJ)": {
+        "por_100g": "959kJ",
+        "por_porcion": "1790kJ"
+      },
+      "Valor Energético (kcal)": {
+        "por_100g": "229kcal",
+        "por_porcion": "427kcal"
+      },
+      "Proteínas (g)": {
+        "por_100g": "10g",
+        "por_porcion": "19g"
+      },
+      "Hidratos de Carbono(g)": {
+        "por_100g": "23g",
+        "por_porcion": "43g"
+      },
+      "Fibra (g)": {
+        "por_100g": "1,4g",
+        "por_porcion": "2,5g"
+      },
+      "Azúcares (g)": {
+        "por_100g": "3,1g",
+        "por_porcion": "5,9g"
+      },
+      "Grasas (g)": {
+        "por_100g": "10g",
+        "por_porcion": "20g"
+      },
+      "Ác. Grasos Saturados (g)": {
+        "por_100g": "1,6g",
+        "por_porcion": "3g"
+      },
+      "Sal (g)": {
+        "por_100g": "1,1g",
+        "por_porcion": "2g"
+      }
+    }
+  },
+  {
+    "nombre": "CBO®",
+    "calorías": "619Kcal",
+    "nutrición": {
+      "Peso": {
+        "por_100g": null,
+        "por_porcion": "236,4g"
+      },
+      "Valor Energético (kJ)": {
+        "por_100g": "1068kJ",
+        "por_porcion": "2525kJ"
+      },
+      "Valor Energético (kcal)": {
+        "por_100g": "255kcal",
+        "por_porcion": "603kcal"
+      },
+      "Proteínas (g)": {
+        "por_100g": "11g",
+        "por_porcion": "25g"
+      },
+      "Hidratos de Carbono(g)": {
+        "por_100g": "22g",
+        "por_porcion": "53g"
+      },
+      "Fibra (g)": {
+        "por_100g": "1,7g",
+        "por_porcion": "4,1g"
+      },
+      "Azúcares (g)": {
+        "por_100g": "3,4g",
+        "por_porcion": "8g"
+      },
+      "Grasas (g)": {
+        "por_100g": "13g",
+        "por_porcion": "31g"
+      },
+      "Ác. Grasos Saturados (g)": {
+        "por_100g": "3,1g",
+        "por_porcion": "7,3g"
+      },
+      "Sal (g)": {
+        "por_100g": "1,2g",
+        "por_porcion": "2,8g"
+      }
+    }
+  },
+  {
+    "nombre": "McCrispy® Original",
+    "calorías": "730Kcal",
+    "nutrición": {
+      "Peso": {
+        "por_100g": null,
+        "por_porcion": "292.2g"
+      },
+      "Valor Energético (kJ)": {
+        "por_100g": "1048kJ",
+        "por_porcion": "3063kJ"
+      },
+      "Valor Energético (kcal)": {
+        "por_100g": "250kcal",
+        "por_porcion": "730kcal"
+      },
+      "Proteínas (g)": {
+        "por_100g": "10g",
+        "por_porcion": "30g"
+      },
+      "Hidratos de Carbono(g)": {
+        "por_100g": "27",
+        "por_porcion": "79"
+      },
+      "Fibra (g)": {
+        "por_100g": "0,9g",
+        "por_porcion": "2,5g"
+      },
+      "Azúcares (g)": {
+        "por_100g": "4,2g",
+        "por_porcion": "12g"
+      },
+      "Grasas (g)": {
+        "por_100g": "11g",
+        "por_porcion": "32"
+      },
+      "Ác. Grasos Saturados (g)": {
+        "por_100g": "2g",
+        "por_porcion": "5,8"
+      },
+      "Sal (g)": {
+        "por_100g": "1g",
+        "por_porcion": "3g"
+      }
+    }
+  },
+  {
+    "nombre": "Spicy McCrispy®",
+    "calorías": "774Kcal",
+    "nutrición": {
+      "Valor Energético (kJ)": {
+        "por_100g": "1203kJ",
+        "por_porcion": "3245kJ"
+      },
+      "Valor Energético (kcal)": {
+        "por_100g": "287kcal",
+        "por_porcion": "774kcal"
+      },
+      "Proteínas (g)": {
+        "por_100g": "12g",
+        "por_porcion": "33g"
+      },
+      "Hidratos de Carbono(g)": {
+        "por_100g": "31g",
+        "por_porcion": "84g"
+      },
+      "Fibra (g)": {
+        "por_100g": "1g",
+        "por_porcion": "2,7g"
+      },
+      "Azúcares (g)": {
+        "por_100g": "4,6g",
+        "por_porcion": "12g"
+      },
+      "Grasas (g)": {
+        "por_100g": "12g",
+        "por_porcion": "34g"
+      },
+      "Ác. Grasos Saturados (g)": {
+        "por_100g": "2,9g",
+        "por_porcion": "7,9g"
+      },
+      "Sal (g)": {
+        "por_100g": "1,2g",
+        "por_porcion": "3,3g"
+      }
+    }
+  },
+  {
+    "nombre": "McExtreme™ Pulled Pork",
+    "calorías": "857Kcal",
+    "nutrición": {
+      "Peso": {
+        "por_100g": null,
+        "por_porcion": "291.8g"
+      },
+      "Valor Energético (kJ)": {
+        "por_100g": "1227kJ",
+        "por_porcion": "3580kJ"
+      },
+      "Valor Energético (kcal)": {
+        "por_100g": "294kcal",
+        "por_porcion": "857kcal"
+      },
+      "Proteínas (g)": {
+        "por_100g": "16g",
+        "por_porcion": "46g"
+      },
+      "Hidratos de Carbono(g)": {
+        "por_100g": "21",
+        "por_porcion": "61"
+      },
+      "Fibra (g)": {
+        "por_100g": "0,8g",
+        "por_porcion": "2,4g"
+      },
+      "Azúcares (g)": {
+        "por_100g": "6,0g",
+        "por_porcion": "17g"
+      },
+      "Grasas (g)": {
+        "por_100g": "16g",
+        "por_porcion": "47g"
+      },
+      "Ác. Grasos Saturados (g)": {
+        "por_100g": "5,9g",
+        "por_porcion": "17g"
+      },
+      "Sal (g)": {
+        "por_100g": "1,4g",
+        "por_porcion": "4g"
+      }
+    }
+  },
+  {
+    "nombre": "McExtreme™ Bacon",
+    "calorías": "787Kcal",
+    "nutrición": {
+      "Peso": {
+        "por_100g": null,
+        "por_porcion": "264g"
+      },
+      "Valor Energético (kJ)": {
+        "por_100g": "1243kJ",
+        "por_porcion": "3286kJ"
+      },
+      "Valor Energético (kcal)": {
+        "por_100g": "298kcal",
+        "por_porcion": "787kcal"
+      },
+      "Proteínas (g)": {
+        "por_100g": "16g",
+        "por_porcion": "43g"
+      },
+      "Hidratos de Carbono(g)": {
+        "por_100g": "18g",
+        "por_porcion": "48g"
+      },
+      "Fibra (g)": {
+        "por_100g": "1,2g",
+        "por_porcion": "3,2g"
+      },
+      "Azúcares (g)": {
+        "por_100g": "3,5g",
+        "por_porcion": "9,4g"
+      },
+      "Grasas (g)": {
+        "por_100g": "18g",
+        "por_porcion": "46g"
+      },
+      "Ác. Grasos Saturados (g)": {
+        "por_100g": "7,2g",
+        "por_porcion": "19g"
+      },
+      "Sal (g)": {
+        "por_100g": "1,1g",
+        "por_porcion": "2,8g"
+      }
+    }
+  },
+  {
+    "nombre": "McExtreme™ Intense Cheddar",
+    "calorías": "681Kcal",
+    "nutrición": {
+      "Valor Energético (kJ)": {
+        "por_100g": "1194kJ",
+        "por_porcion": "2849kJ"
+      },
+      "Valor Energético (kcal)": {
+        "por_100g": "285kcal",
+        "por_porcion": "681kcal"
+      },
+      "Proteínas (g)": {
+        "por_100g": "16g",
+        "por_porcion": "39g"
+      },
+      "Hidratos de Carbono(g)": {
+        "por_100g": "20g",
+        "por_porcion": "48g"
+      },
+      "Fibra (g)": {
+        "por_100g": "0,7g",
+        "por_porcion": "1,7g"
+      },
+      "Azúcares (g)": {
+        "por_100g": "3,7g",
+        "por_porcion": "8,8g"
+      },
+      "Grasas (g)": {
+        "por_100g": "15g",
+        "por_porcion": "37g"
+      },
+      "Ác. Grasos Saturados (g)": {
+        "por_100g": "7,6g",
+        "por_porcion": "18g"
+      },
+      "Sal (g)": {
+        "por_100g": "1,4g",
+        "por_porcion": "3,3g"
+      }
+    }
+  },
+  {
+    "nombre": "McExtreme™ Pulled Pork Doble",
+    "calorías": "1086Kcal",
+    "nutrición": {
+      "Peso": {
+        "por_100g": null,
+        "por_porcion": "376.6g"
+      },
+      "Valor Energético (kJ)": {
+        "por_100g": "1204kJ",
+        "por_porcion": "4536kJ"
+      },
+      "Valor Energético (kcal)": {
+        "por_100g": "288kcal",
+        "por_porcion": "1086kcal"
+      },
+      "Proteínas (g)": {
+        "por_100g": "18g",
+        "por_porcion": "66g"
+      },
+      "Hidratos de Carbono(g)": {
+        "por_100g": "16g",
+        "por_porcion": "61g"
+      },
+      "Fibra (g)": {
+        "por_100g": "0,6g",
+        "por_porcion": "2,4g"
+      },
+      "Azúcares (g)": {
+        "por_100g": "4,6g",
+        "por_porcion": "17g"
+      },
+      "Grasas (g)": {
+        "por_100g": "17g",
+        "por_porcion": "64g"
+      },
+      "Ác. Grasos Saturados (g)": {
+        "por_100g": "6,7g",
+        "por_porcion": "25g"
+      },
+      "Sal (g)": {
+        "por_100g": "1,2g",
+        "por_porcion": "4,5g"
+      }
+    }
+  },
+  {
+    "nombre": "McExtreme™ Bacon Doble",
+    "calorías": "327Kcal",
+    "nutrición": {
+      "Valor Energético (kJ)": {
+        "por_100g": "1214kJ",
+        "por_porcion": "3968kJ"
+      },
+      "Valor Energético (kcal)": {
+        "por_100g": "291kcal",
+        "por_porcion": "951kcal"
+      },
+      "Proteínas (g)": {
+        "por_100g": "18g",
+        "por_porcion": "59g"
+      },
+      "Hidratos de Carbono(g)": {
+        "por_100g": "14g",
+        "por_porcion": "44g"
+      },
+      "Fibra (g)": {
+        "por_100g": "0,9g",
+        "por_porcion": "2,9g"
+      },
+      "Azúcares (g)": {
+        "por_100g": "2,6g",
+        "por_porcion": "8,6g"
+      },
+      "Grasas (g)": {
+        "por_100g": "18g",
+        "por_porcion": "59g"
+      },
+      "Ác. Grasos Saturados (g)": {
+        "por_100g": "7,7g",
+        "por_porcion": "25g"
+      },
+      "Sal (g)": {
+        "por_100g": "0,93g",
+        "por_porcion": "3g"
+      }
+    }
+  },
+  {
+    "nombre": "McExtreme™ Intense Cheddar Doble",
+    "calorías": "911Kcal",
+    "nutrición": {
+      "Valor Energético (kJ)": {
+        "por_100g": "1176kJ",
+        "por_porcion": "3805kJ"
+      },
+      "Valor Energético (kcal)": {
+        "por_100g": "282kcal",
+        "por_porcion": "911kcal"
+      },
+      "Proteínas (g)": {
+        "por_100g": "18g",
+        "por_porcion": "59g"
+      },
+      "Hidratos de Carbono(g)": {
+        "por_100g": "15g",
+        "por_porcion": "118g"
+      },
+      "Fibra (g)": {
+        "por_100g": "0,5",
+        "por_porcion": "1,7g"
+      },
+      "Azúcares (g)": {
+        "por_100g": "2,7g",
+        "por_porcion": "8,8g"
+      },
+      "Grasas (g)": {
+        "por_100g": "16g",
+        "por_porcion": "53g"
+      },
+      "Ác. Grasos Saturados (g)": {
+        "por_100g": "8g",
+        "por_porcion": "26g"
+      },
+      "Sal (g)": {
+        "por_100g": "1,2g",
+        "por_porcion": "3,6g"
+      }
+    }
+  },
+  {
+    "nombre": "Doble Cheeseburger",
+    "calorías": "446Kcal",
+    "nutrición": {
+      "Peso": {
+        "por_100g": null,
+        "por_porcion": "170,4g"
+      },
+      "Valor Energético (kJ)": {
+        "por_100g": "1094kJ",
+        "por_porcion": "1864kJ"
+      },
+      "Valor Energético (kcal)": {
+        "por_100g": "262kcal",
+        "por_porcion": "446kcal"
+      },
+      "Proteínas (g)": {
+        "por_100g": "16g",
+        "por_porcion": "26g"
+      },
+      "Hidratos de Carbono(g)": {
+        "por_100g": "19g",
+        "por_porcion": "32g"
+      },
+      "Fibra (g)": {
+        "por_100g": "1,1g",
+        "por_porcion": "1,9g"
+      },
+      "Azúcares (g)": {
+        "por_100g": "4,3g",
+        "por_porcion": "7,4g"
+      },
+      "Grasas (g)": {
+        "por_100g": "14g",
+        "por_porcion": "23g"
+      },
+      "Ác. Grasos Saturados (g)": {
+        "por_100g": "7g",
+        "por_porcion": "12g"
+      },
+      "Sal (g)": {
+        "por_100g": "1,4g",
+        "por_porcion": "2,4g"
+      }
+    }
+  },
+  {
+    "nombre": "Triple Cheeseburger",
+    "calorías": "587Kcal",
+    "nutrición": {
+      "Peso": {
+        "por_100g": null,
+        "por_porcion": "218,4g"
+      },
+      "Valor Energético (kJ)": {
+        "por_100g": "1123kJ",
+        "por_porcion": "2453kJ"
+      },
+      "Valor Energético (kcal)": {
+        "por_100g": "269kcal",
+        "por_porcion": "587kcal"
+      },
+      "Proteínas (g)": {
+        "por_100g": "17g",
+        "por_porcion": "37g"
+      },
+      "Hidratos de Carbono(g)": {
+        "por_100g": "15g",
+        "por_porcion": "32g"
+      },
+      "Fibra (g)": {
+        "por_100g": "0,9g",
+        "por_porcion": "1,9g"
+      },
+      "Azúcares (g)": {
+        "por_100g": "3,6g",
+        "por_porcion": "7,8g"
+      },
+      "Grasas (g)": {
+        "por_100g": "16g",
+        "por_porcion": "34g"
+      },
+      "Ác. Grasos Saturados (g)": {
+        "por_100g": "8,1g",
+        "por_porcion": "18g"
+      },
+      "Sal (g)": {
+        "por_100g": "1,4g",
+        "por_porcion": "3,1g"
+      }
+    }
+  },
+  {
+    "nombre": "Chicken & Cheese",
+    "calorías": "354Kcal",
+    "nutrición": {
+      "Valor Energético (kJ)": {
+        "por_100g": "1049kJ",
+        "por_porcion": "1484kJ"
+      },
+      "Valor Energético (kcal)": {
+        "por_100g": "250kcal",
+        "por_porcion": "354kcal"
+      },
+      "Proteínas (g)": {
+        "por_100g": "10g",
+        "por_porcion": "14g"
+      },
+      "Hidratos de Carbono(g)": {
+        "por_100g": "28g",
+        "por_porcion": "40g"
+      },
+      "Fibra (g)": {
+        "por_100g": "1,6g",
+        "por_porcion": "2,3g"
+      },
+      "Azúcares (g)": {
+        "por_100g": "5,1g",
+        "por_porcion": "7,2g"
+      },
+      "Grasas (g)": {
+        "por_100g": "10g",
+        "por_porcion": "15g"
+      },
+      "Ác. Grasos Saturados (g)": {
+        "por_100g": "3g",
+        "por_porcion": "4,3g"
+      },
+      "Sal (g)": {
+        "por_100g": "1,4g",
+        "por_porcion": "2g"
+      }
+    }
+  },
+  {
+    "nombre": "McWrap Chicken crujiente & Bacon",
+    "calorías": "582Kcal",
+    "nutrición": {
+      "Peso": {
+        "por_100g": null,
+        "por_porcion": "263g"
+      },
+      "Valor Energético (kJ)": {
+        "por_100g": "926kJ",
+        "por_porcion": "2436kJ"
+      },
+      "Valor Energético (kcal)": {
+        "por_100g": "221kcal",
+        "por_porcion": "582kcal"
+      },
+      "Proteínas (g)": {
+        "por_100g": "10g",
+        "por_porcion": "27g"
+      },
+      "Hidratos de Carbono(g)": {
+        "por_100g": "19g",
+        "por_porcion": "49g"
+      },
+      "Fibra (g)": {
+        "por_100g": "1g",
+        "por_porcion": "2,6g"
+      },
+      "Azúcares (g)": {
+        "por_100g": "1,6g",
+        "por_porcion": "4,2g"
+      },
+      "Grasas (g)": {
+        "por_100g": "12g",
+        "por_porcion": "31g"
+      },
+      "Ác. Grasos Saturados (g)": {
+        "por_100g": "3,5g",
+        "por_porcion": "9,2g"
+      },
+      "Sal (g)": {
+        "por_100g": "1,2g",
+        "por_porcion": "3,2g"
+      }
+    }
+  },
+  {
+    "nombre": "Chicken Burger BBQ",
+    "calorías": "304Kcal",
+    "nutrición": {
+      "Peso": {
+        "por_100g": null,
+        "por_porcion": "127g"
+      },
+      "Valor Energético (kJ)": {
+        "por_100g": "1007kJ",
+        "por_porcion": "1279kJ"
+      },
+      "Valor Energético (kcal)": {
+        "por_100g": "240kcal",
+        "por_porcion": "304kcal"
+      },
+      "Proteínas (g)": {
+        "por_100g": "9,02g",
+        "por_porcion": "12g"
+      },
+      "Hidratos de Carbono(g)": {
+        "por_100g": "31g",
+        "por_porcion": "39g"
+      },
+      "Fibra (g)": {
+        "por_100g": "1,8g",
+        "por_porcion": "2,3g"
+      },
+      "Azúcares (g)": {
+        "por_100g": "5,3g",
+        "por_porcion": "6,7g"
+      },
+      "Grasas (g)": {
+        "por_100g": "8,4g",
+        "por_porcion": "11g"
+      },
+      "Ác. Grasos Saturados (g)": {
+        "por_100g": "1,3g",
+        "por_porcion": "1,7g"
+      },
+      "Sal (g)": {
+        "por_100g": "1,2g",
+        "por_porcion": "1,5g"
+      }
+    }
+  },
+  {
+    "nombre": "Chicken Burger Kids",
+    "calorías": "309Kcal",
+    "nutrición": {
+      "Peso": {
+        "por_100g": null,
+        "por_porcion": "119g"
+      },
+      "Valor Energético (kJ)": {
+        "por_100g": "1091kJ",
+        "por_porcion": "1298kJ"
+      },
+      "Valor Energético (kcal)": {
+        "por_100g": "260kcal",
+        "por_porcion": "309kcal"
+      },
+      "Proteínas (g)": {
+        "por_100g": "9,8g",
+        "por_porcion": "12g"
+      },
+      "Hidratos de Carbono(g)": {
+        "por_100g": "34g",
+        "por_porcion": "40g"
+      },
+      "Fibra (g)": {
+        "por_100g": "1,9g",
+        "por_porcion": "2,3g"
+      },
+      "Azúcares (g)": {
+        "por_100g": "6,5g",
+        "por_porcion": "7,7g"
+      },
+      "Grasas (g)": {
+        "por_100g": "8,9g",
+        "por_porcion": "11g"
+      },
+      "Ác. Grasos Saturados (g)": {
+        "por_100g": "1,4g",
+        "por_porcion": "1,7g"
+      },
+      "Sal (g)": {
+        "por_100g": "1,2g",
+        "por_porcion": "1,5g"
+      }
+    }
+  },
+  {
+    "nombre": "Filete de pescado",
+    "calorías": "331Kcal",
+    "nutrición": {
+      "Peso": {
+        "por_100g": null,
+        "por_porcion": "137g"
+      },
+      "Valor Energético (kJ)": {
+        "por_100g": "1015kJ",
+        "por_porcion": "1391kJ"
+      },
+      "Valor Energético (kcal)": {
+        "por_100g": "242kcal",
+        "por_porcion": "331kcal"
+      },
+      "Proteínas (g)": {
+        "por_100g": "11g",
+        "por_porcion": "15g"
+      },
+      "Hidratos de Carbono(g)": {
+        "por_100g": "27g",
+        "por_porcion": "37g"
+      },
+      "Fibra (g)": {
+        "por_100g": "1,4g",
+        "por_porcion": "2g"
+      },
+      "Azúcares (g)": {
+        "por_100g": "3,5g",
+        "por_porcion": "4,8g"
+      },
+      "Grasas (g)": {
+        "por_100g": "9,7g",
+        "por_porcion": "13g"
+      },
+      "Ác. Grasos Saturados (g)": {
+        "por_100g": "1,9g",
+        "por_porcion": "2,6g"
+      },
+      "Sal (g)": {
+        "por_100g": "1,1g",
+        "por_porcion": "1,5g"
+      }
+    }
+  },
+  {
+    "nombre": "Filete de pescado Doble",
+    "calorías": "471Kcal",
+    "nutrición": {
+      "Peso": {
+        "por_100g": null,
+        "por_porcion": "194g"
+      },
+      "Valor Energético (kJ)": {
+        "por_100g": "1017kJ",
+        "por_porcion": "1975kJ"
+      },
+      "Valor Energético (kcal)": {
+        "por_100g": "243kcal",
+        "por_porcion": "471kcal"
+      },
+      "Proteínas (g)": {
+        "por_100g": "13g",
+        "por_porcion": "24g"
+      },
+      "Hidratos de Carbono(g)": {
+        "por_100g": "22g",
+        "por_porcion": "44g"
+      },
+      "Fibra (g)": {
+        "por_100g": "1,2g",
+        "por_porcion": "2,3g"
+      },
+      "Azúcares (g)": {
+        "por_100g": "3,1g",
+        "por_porcion": "5,9g"
+      },
+      "Grasas (g)": {
+        "por_100g": "11g",
+        "por_porcion": "22g"
+      },
+      "Ác. Grasos Saturados (g)": {
+        "por_100g": "2,4g",
+        "por_porcion": "4,7g"
+      },
+      "Sal (g)": {
+        "por_100g": "1,1g",
+        "por_porcion": "2,1g"
+      }
+    }
+  },
+  {
+    "nombre": "McFish®",
+    "calorías": "331Kcal",
+    "nutrición": {
+      "124Peso": {
+        "por_100g": null,
+        "por_porcion": "g"
+      },
+      "Valor Energético (kJ)": {
+        "por_100g": "968kJ",
+        "por_porcion": "1185kJ"
+      },
+      "Valor Energético (kcal)": {
+        "por_100g": "226kcal",
+        "por_porcion": "281kcal"
+      },
+      "Proteínas (g)": {
+        "por_100g": "11g",
+        "por_porcion": "14g"
+      },
+      "Hidratos de Carbono(g)": {
+        "por_100g": "32g",
+        "por_porcion": "39g"
+      },
+      "Fibra (g)": {
+        "por_100g": "1,7g",
+        "por_porcion": "2,1g"
+      },
+      "Azúcares (g)": {
+        "por_100g": "5,9g",
+        "por_porcion": "7,3g"
+      },
+      "Grasas (g)": {
+        "por_100g": "5,8g",
+        "por_porcion": "7,2g"
+      },
+      "Ác. Grasos Saturados (g)": {
+        "por_100g": "0,7g",
+        "por_porcion": "0,9g"
+      },
+      "Sal (g)": {
+        "por_100g": "1,1g",
+        "por_porcion": "1,2g"
+      }
+    }
+  },
+  {
+    "nombre": "Chicken Mayo",
+    "calorías": "362Kcal",
+    "nutrición": {
+      "Peso": {
+        "por_100g": null,
+        "por_porcion": "136g"
+      },
+      "Valor Energético (kJ)": {
+        "por_100g": "1114kJ",
+        "por_porcion": "1516kJ"
+      },
+      "Valor Energético (kcal)": {
+        "por_100g": "266kcal",
+        "por_porcion": "362kcal"
+      },
+      "Proteínas (g)": {
+        "por_100g": "8,6g",
+        "por_porcion": "12g"
+      },
+      "Hidratos de Carbono(g)": {
+        "por_100g": "28g",
+        "por_porcion": "37g"
+      },
+      "Fibra (g)": {
+        "por_100g": "1,6g",
+        "por_porcion": "2,2g"
+      },
+      "Azúcares (g)": {
+        "por_100g": "3,6g",
+        "por_porcion": "4,8g"
+      },
+      "Grasas (g)": {
+        "por_100g": "13g",
+        "por_porcion": "18g"
+      },
+      "Ác. Grasos Saturados (g)": {
+        "por_100g": "2,1g",
+        "por_porcion": "2,8g"
+      },
+      "Sal (g)": {
+        "por_100g": "1,1g",
+        "por_porcion": "1,5g"
+      }
+    }
+  },
+  {
+    "nombre": "Doble Chicken Mayo",
+    "calorías": "505Kcal",
+    "nutrición": {
+      "Peso": {
+        "por_100g": null,
+        "por_porcion": "186,6g"
+      },
+      "Valor Energético (kJ)": {
+        "por_100g": "1132kJ",
+        "por_porcion": "2112kJ"
+      },
+      "Valor Energético (kcal)": {
+        "por_100g": "271kcal",
+        "por_porcion": "505kcal"
+      },
+      "Proteínas (g)": {
+        "por_100g": "9,8g",
+        "por_porcion": "18g"
+      },
+      "Hidratos de Carbono(g)": {
+        "por_100g": "25g",
+        "por_porcion": "47g"
+      },
+      "Fibra (g)": {
+        "por_100g": "1,4g",
+        "por_porcion": "2,7g"
+      },
+      "Azúcares (g)": {
+        "por_100g": "2,7g",
+        "por_porcion": "5g"
+      },
+      "Grasas (g)": {
+        "por_100g": "14g",
+        "por_porcion": "27g"
+      },
+      "Ác. Grasos Saturados (g)": {
+        "por_100g": "2,2g",
+        "por_porcion": "4,2g"
+      },
+      "Sal (g)": {
+        "por_100g": "1,1g",
+        "por_porcion": "2g"
+      }
+    }
+  },
+  {
+    "nombre": "Triple Chicken Mayo",
+    "calorías": "648Kcal",
+    "nutrición": {
+      "Peso": {
+        "por_100g": null,
+        "por_porcion": "237,2g"
+      },
+      "Valor Energético (kJ)": {
+        "por_100g": "1142kJ",
+        "por_porcion": "2709kJ"
+      },
+      "Valor Energético (kcal)": {
+        "por_100g": "273kcal",
+        "por_porcion": "648kcal"
+      },
+      "Proteínas (g)": {
+        "por_100g": "11g",
+        "por_porcion": "25g"
+      },
+      "Hidratos de Carbono(g)": {
+        "por_100g": "24g",
+        "por_porcion": "56g"
+      },
+      "Fibra (g)": {
+        "por_100g": "1,4g",
+        "por_porcion": "3,2g"
+      },
+      "Azúcares (g)": {
+        "por_100g": "2,2g",
+        "por_porcion": "5,3g"
+      },
+      "Grasas (g)": {
+        "por_100g": "15g",
+        "por_porcion": "35g"
+      },
+      "Ác. Grasos Saturados (g)": {
+        "por_100g": "2,3g",
+        "por_porcion": "5,5g"
+      },
+      "Sal (g)": {
+        "por_100g": "1,1g",
+        "por_porcion": "2,6g"
+      }
+    }
+  }
+]
