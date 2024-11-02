@@ -1,4 +1,4 @@
-const Burger = require("../models/burger");
+const Burger = require("../models/Burger");
 const { validationResult } = require("express-validator");
 
 exports.getAllBurgers = async (req, res) => {

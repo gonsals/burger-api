@@ -1,4 +1,4 @@
-const Burger = require("../models/burger");
+const Burger = require("../models/Burger");
 const { scrapeNutritionalInfo } = require("../scraper/scraper");
 
 exports.scrapeAndStoreBurgers = async (burgerNames) => {
