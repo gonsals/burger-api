@@ -29,7 +29,7 @@ const nutritionSchema = new mongoose.Schema({
         por_100g: { type: String },
         por_porcion: { type: String },
     },
-    "Ác. Grasos Saturados (g)": {
+    "Ácidos Grasos Saturados (g)": {
         por_100g: { type: String },
         por_porcion: { type: String },
     },
@@ -43,7 +43,8 @@ const burgerSchema = new mongoose.Schema({
     nombre: { type: String, required: true },
     calorías: { type: String, required: true },
     nutrición: { type: nutritionSchema, required: true },
-    price: { type: Number, required: true },
+    price: { type: Number },
+    peso: { type: Number },
 });
 
 module.exports = mongoose.model("Hamburguesas", burgerSchema);

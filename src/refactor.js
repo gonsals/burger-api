@@ -12,8 +12,8 @@ mongoose
 const hamburguesaSchema = new mongoose.Schema({
     nombre: String,
     calorías: String,
-    price: Number, // Campo para el precio
-    peso: Number, // Campo para el peso
+    price: Number,
+    peso: Number,
     nutrición: {
         "Valor Energético (kJ)": Object,
         "Valor Energético (kcal)": Object,
@@ -22,7 +22,7 @@ const hamburguesaSchema = new mongoose.Schema({
         "Fibra (g)": Object,
         "Azúcares (g)": Object,
         "Grasas (g)": Object,
-        "Ác. Grasos Saturados (g)": Object,
+        "Ácidos Grasos Saturados (g)": Object,
         "Sal (g)": Object,
     },
 });
@@ -47,18 +47,16 @@ fs.readFile(filePath, "utf8", async (err, data) => {
         // Calcular el peso y agregarlo al objeto
         const hamburguesasConPeso = hamburguesas.map((hamburguesa) => {
             // Extraer calorías y valor energético
-            const calorías = parseFloat(hamburguesa.calorías); // Convierte a número
+            const calorías = parseFloat(hamburguesa.calorías);
             const valorEnergeticoKcal = parseFloat(
                 hamburguesa.nutrición["Valor Energético (kcal)"].por_100g
-            ); // Convierte a número
+            );
 
-            // Calcular el peso
-            const peso = (calorías / valorEnergeticoKcal) * 100; // Peso en gramos
+            const peso = (calorías / valorEnergeticoKcal) * 100;
 
-            // Retornar el objeto con el nuevo campo 'peso'
             return {
                 ...hamburguesa,
-                peso: peso, // Agrega el peso calculado
+                peso: peso,
             };
         });
 
