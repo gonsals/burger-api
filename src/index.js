@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 connectDB(process.env.MONGODB_URI);
 
 app.use(express.json());
-app.use("/api/burgers", burgerRoutes);
+app.use("/api/hamburguesas", burgerRoutes);
 app.use(errorHandler);
 
 app.listen(PORT, () => {

@@ -1,10 +1,6 @@
 const mongoose = require("mongoose");
 
 const nutritionSchema = new mongoose.Schema({
-    Peso: {
-        por_100g: { type: String, default: null },
-        por_porcion: { type: String },
-    },
     "Valor Energético (kJ)": {
         por_100g: { type: String },
         por_porcion: { type: String },
@@ -50,4 +46,4 @@ const burgerSchema = new mongoose.Schema({
     price: { type: Number, required: true },
 });
 
-module.exports = mongoose.model("Burger", burgerSchema);
+module.exports = mongoose.model("Hamburguesas", burgerSchema);

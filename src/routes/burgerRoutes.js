@@ -28,6 +28,7 @@ router.put("/:id", burgerController.updateBurger);
 router.delete("/:id", burgerController.deleteBurger);
 router.get("/ratio/best", burgerController.getBestBurger);
 router.get("/ratio/bests", burgerController.getBestBurgers);
+router.post("/update", burgerController.updateAllBurgersWeight);
 router.post("/scrape", scraperController.scrapeAndStoreBurgers);
 
 module.exports = router;

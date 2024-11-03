@@ -1,9 +1,9 @@
-const Burger = require("../models/Burger");
+const Hamburguesa = require("../models/Burger");
 const { validationResult } = require("express-validator");
 
 exports.getAllBurgers = async (req, res) => {
     try {
-        const burgers = await Burger.find();
+        const burgers = await Hamburguesa.find();
         res.json(burgers);
     } catch (error) {
         res.status(500).send(error);
@@ -16,7 +16,7 @@ exports.createBurger = async (req, res) => {
         return res.status(400).json({ errors: errors.array() });
     }
 
-    const newBurger = new Burger(req.body);
+    const newBurger = new Hamburguesa(req.body);
     try {
         await newBurger.save();
         res.status(201).json(newBurger);
@@ -30,7 +30,7 @@ exports.createBurger = async (req, res) => {
 
 exports.getBurgerById = async (req, res) => {
     try {
-        const burger = await Burger.findById(req.params.id);
+        const burger = await Hamburguesa.findById(req.params.id);
         if (!burger) {
             return res
                 .status(404)
@@ -47,7 +47,7 @@ exports.getBurgerById = async (req, res) => {
 
 exports.updateBurger = async (req, res) => {
     try {
-        const updatedBurger = await Burger.findByIdAndUpdate(
+        const updatedBurger = await Hamburguesa.findByIdAndUpdate(
             req.params.id,
             req.body,
             { new: true, runValidators: true }
@@ -68,7 +68,9 @@ exports.updateBurger = async (req, res) => {
 
 exports.deleteBurger = async (req, res) => {
     try {
-        const deletedBurger = await Burger.findByIdAndDelete(req.params.id);
+        const deletedBurger = await Hamburguesa.findByIdAndDelete(
+            req.params.id
+        );
         if (!deletedBurger) {
             return res
                 .status(404)
@@ -85,7 +87,7 @@ exports.deleteBurger = async (req, res) => {
 
 exports.getBestBurger = async (req, res) => {
     try {
-        const burgers = await Burger.find();
+        const burgers = await Hamburguesa.find();
         let bestBurger = null;
 
         burgers.forEach((burger) => {
@@ -123,7 +125,7 @@ exports.getBestBurger = async (req, res) => {
 
 exports.getBestBurgers = async (req, res) => {
     try {
-        const burgers = await Burger.find();
+        const burgers = await Hamburguesa.find();
         const ratios = burgers.map((burger) => {
             const totalCalories = parseFloat(burger.calorías);
             const caloriesPer100g = parseFloat(
@@ -149,6 +151,47 @@ exports.getBestBurgers = async (req, res) => {
     } catch (err) {
         res.status(500).json({
             error: "Error al calcular los mejores ratios cantidad-precio.",
+        });
+    }
+};
+
+exports.updateAllBurgersWeight = async (req, res) => {
+    console.log("123123123");
+    try {
+        const burgers = await Hamburguesa.find();
+        console.log("Burgers fetched from the database:", burgers);
+
+        const updatedBurgers = await Promise.all(
+            burgers.map(async (burger) => {
+                const totalCalories = parseFloat(burger.calorías);
+                const caloriesPer100g = parseFloat(
+                    burger.nutrición["Valor Energético (kcal)"].por_100g
+                );
+
+                if (!isNaN(totalCalories) && !isNaN(caloriesPer100g)) {
+                    // Calculate the weight based on calories
+                    burger.nutrición.Peso = {
+                        por_100g: (totalCalories / caloriesPer100g) * 100,
+                        por_porcion: "100g", // Set or modify this based on your requirements
+                    };
+
+                    console.log("Updating burger:", burger._id);
+                    return await burger.save();
+                }
+                return burger; // Return the original if calculation can't be performed
+            })
+        );
+
+        res.json({
+            message: "All burgers updated successfully",
+            updatedBurgers,
+        });
+    } catch (error) {
+        console.log("first");
+        console.error("Error occurred while updating burgers:", error);
+        res.status(500).json({
+            message: "Error al actualizar los pesos de las hamburguesas",
+            error,
         });
     }
 };
