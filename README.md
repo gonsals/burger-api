@@ -38,31 +38,130 @@ La API permite interactuar con datos de hamburguesas mediante varios endpoints. 
 
 ## Ejemplos de Uso
 
-Aquí tienes algunos ejemplos de cómo interactuar con la API utilizando `curl`:
+Aquí tienes algunos ejemplos de cómo interactuar con la API utilizando JavaScript:
 
 1. **Listar todas las hamburguesas**
-   ```bash
-   curl -X GET https://burger-api.up.railway.app/api/hamburguesas
+
+   Con **JavaScript (Fetch API)**:
+
+   ```javascript
+   fetch('https://burger-api.up.railway.app/api/hamburguesas')
+     .then(response => response.json())
+     .then(data => console.log(data))
+     .catch(error => console.error('Error:', error));
+   ```
+
+   Con **Axios**:
+
+   ```javascript
+   const axios = require('axios');
+
+   axios.get('https://burger-api.up.railway.app/api/hamburguesas')
+     .then(response => console.log(response.data))
+     .catch(error => console.error('Error:', error));
    ```
 
 2. **Crear una nueva hamburguesa**
-   ```bash
-   curl -X POST https://burger-api.up.railway.app/api/hamburguesas \
-   -H "Content-Type: application/json" \
-   -d '{"nombre": "Big Mac", "calorías": "540", "price": 4.99, "nutrición": {"Valor Energético (kcal)": {"por_100g": "250"}}}'
+
+   Con **JavaScript (Fetch API)**:
+
+   ```javascript
+   fetch('https://burger-api.up.railway.app/api/hamburguesas', {
+     method: 'POST',
+     headers: {
+       'Content-Type': 'application/json'
+     },
+     body: JSON.stringify({
+       nombre: "Big Mac",
+       calorías: "540",
+       price: 4.99,
+       nutrición: {
+         "Valor Energético (kcal)": {
+           "por_100g": "250"
+         }
+       }
+     })
+   })
+     .then(response => response.json())
+     .then(data => console.log(data))
+     .catch(error => console.error('Error:', error));
+   ```
+
+   Con **Axios**:
+
+   ```javascript
+   const axios = require('axios');
+
+   axios.post('https://burger-api.up.railway.app/api/hamburguesas', {
+     nombre: "Big Mac",
+     calorías: "540",
+     price: 4.99,
+     nutrición: {
+       "Valor Energético (kcal)": {
+         "por_100g": "250"
+       }
+     }
+   })
+     .then(response => console.log(response.data))
+     .catch(error => console.error('Error:', error));
    ```
 
 3. **Actualizar una hamburguesa por ID**
-   ```bash
-   curl -X PUT https://burger-api.up.railway.app/api/hamburguesas/ID_DE_LA_HAMBURGUESA \
-   -H "Content-Type: application/json" \
-   -d '{"nombre": "Big Mac Actualizado", "calorías": "550"}'
+
+   Con **JavaScript (Fetch API)**:
+
+   ```javascript
+   fetch('https://burger-api.up.railway.app/api/hamburguesas/ID_DE_LA_HAMBURGUESA', {
+     method: 'PUT',
+     headers: {
+       'Content-Type': 'application/json'
+     },
+     body: JSON.stringify({
+       nombre: "Big Mac Actualizado",
+       calorías: "550"
+     })
+   })
+     .then(response => response.json())
+     .then(data => console.log(data))
+     .catch(error => console.error('Error:', error));
+   ```
+
+   Con **Axios**:
+
+   ```javascript
+   const axios = require('axios');
+
+   axios.put('https://burger-api.up.railway.app/api/hamburguesas/ID_DE_LA_HAMBURGUESA', {
+     nombre: "Big Mac Actualizado",
+     calorías: "550"
+   })
+     .then(response => console.log(response.data))
+     .catch(error => console.error('Error:', error));
    ```
 
 4. **Eliminar una hamburguesa por ID**
-   ```bash
-   curl -X DELETE https://burger-api.up.railway.app/api/hamburguesas/ID_DE_LA_HAMBURGUESA
+
+   Con **JavaScript (Fetch API)**:
+
+   ```javascript
+   fetch('https://burger-api.up.railway.app/api/hamburguesas/ID_DE_LA_HAMBURGUESA', {
+     method: 'DELETE'
+   })
+     .then(response => response.json())
+     .then(data => console.log(data))
+     .catch(error => console.error('Error:', error));
    ```
+
+   Con **Axios**:
+
+   ```javascript
+   const axios = require('axios');
+
+   axios.delete('https://burger-api.up.railway.app/api/hamburguesas/ID_DE_LA_HAMBURGUESA')
+     .then(response => console.log(response.data))
+     .catch(error => console.error('Error:', error));
+   ```
+
 
 ## Manejo de Errores
 
